@@ -1,0 +1,428 @@
+.righticons {
+  padding-right: 10px;
+  
+  padding-top: 15px;
+  font-size: x-large;
+  margin-left: 25%;
+}
+.navbar {
+ 
+  width: 101%;
+padding-top: -10px;
+margin: -1.5% 0% 0% -1%;
+  display: flex;
+  background-color: rgb(180, 78, 78);
+  position: fixed;
+  top: 0%;
+  
+  overflow: hidden;
+  z-index: 1;
+  height: 15%;
+  
+}
+.searchbar{
+     margin-left: 15rem;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+
+   width: 23rem;
+   height: 2rem;
+}
+.search{
+  padding-top: 10px;
+}
+  .icons {
+    padding: 10px;
+    color: white;
+    
+  }
+.menu{
+  color: aliceblue;
+  font-size: x-large;
+  position: relative;
+  padding-top: 13px;
+}
+.menudropdown {
+  position: relative;
+  display: none;
+}
+menu:hover .menudropdown {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.bdaybox {
+  background-color: aqua;
+  display: inline-block;
+  padding: 10px;
+  margin:2.8%;
+  text-align: center;
+  background-color: rgb(241, 241, 243);
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
+  height: 5%;
+  width: 15%;
+ 
+  
+
+}
+.bdaybox:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(172, 72, 72);
+  color: white;
+  
+
+}
+.bdaybox:hover .bdayboximage {
+  border: 5px rgb(172, 72, 72) solid;
+  box-shadow: rgba(0, 0, 0, 0.45) 5px 15px 19px;
+  
+}
+
+.bdayboximage {
+  height: 15rem;
+  width: 20rem;
+  border: 5px rgb(172, 72, 72)  solid;
+}
+.bdayboximage:hover {
+  border: 5px rgb(172, 72, 72) solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+.bdayboxheading {
+  border-bottom: 2px solid black;
+  width: 91%;
+  margin-left: 2%;
+  font-family: 'Smooch Sans', sans-serif;
+  padding-top: -6%;
+}
+.bdayboxdiv {
+  margin-left: 5%;
+}
+
+.anniversarybox {
+  background-color: aqua;
+  display: inline-block;
+  padding: 13px;
+  margin: 5%;
+  text-align: center;
+  background-color: rgb(241, 241, 243);
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
+
+}
+.anniversarybox:hover {
+  transform: scale(1.1);
+  background-color: rgb(172, 72, 72);
+  color: white;
+}
+.anniversaryboximage {
+  height: 150px;
+  width: 200px; 
+}
+.anniversarydiv {
+  margin-left: 1%;
+}
+.anniversaryheading {
+  border-bottom: 2px solid black;
+  width: 78%;
+  margin-left: 9%;
+  font-family: 'Smooch Sans', sans-serif;
+}
+html {
+  background-color: rgb(239, 247, 255);
+}
+
+
+.occasionsbox {
+  background-color: aqua;
+  display: inline-block;
+  padding: 13px;
+  margin: 5%;
+  text-align: center;
+  background-color: rgb(241, 241, 243);
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
+
+}
+.occasionsbox:hover {
+  transform: scale(1.1);
+  background-color: rgb(172, 72, 72);
+  color: white;
+}
+.occasionsboximage {
+  height: 150px;
+  width: 200px;
+}
+.occasionsdiv {
+  margin-left: 9%;
+}
+.occasionsheading {
+  border-bottom: 2px solid black;
+  width: 78%;
+  margin-left: 9%;
+  font-family: 'Smooch Sans', sans-serif;
+}
+.anniversaryandoccasions {
+  display: inline-flex;
+}
+
+.personalgiftsbox {
+  background-color: aqua;
+  display: inline-block;
+  padding: 10px;
+  margin: 1.6%;
+  text-align: center;
+  background-color: rgb(241, 241, 243);
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
+}
+  
+.personalgiftsbox:hover {
+  transform: scale(1.1);
+  background-color: rgb(172, 72, 72);
+  color: white;
+}
+.personalgiftsboximage {
+  height: 10rem;
+  width: 12rem;
+}
+.personalgiftsdiv {
+  margin-left: 9%;
+}
+.personalgiftsheading {
+  border-bottom: 2px solid black;
+  width: 78%;
+  margin-left: 2%;
+  font-family: 'Smooch Sans', sans-serif;
+}  
+
+
+.categories {
+  padding-top: 10px;
+  display: inline-flex;
+  height: 100px;
+  border: 1px red solid;
+  border-radius: 10px;
+  margin-left: 15%;
+  width: 50;
+  overflow: hidden;
+}
+
+.categoriess {
+  padding: 20px;
+  height: 70px;
+  text-align: center;
+  width: 130px;
+  border-right: 1px red solid;   
+}
+.categoriess:nth-child(7){
+  border: none;
+}
+.toppadding{
+  padding-top: 90px;
+}
+.UpperSlideBar{
+  border-radius: 60px;
+padding: 20px;
+width: 100%;
+height: 55%;
+}
+
+.salebanner {
+  width: 100%;
+  padding: 3%;
+}
+#secondsalebanner{
+  margin-top: -4%;
+}
+.stats{
+  display: inline-flex;
+ font-size: xx-large;
+ width: 100%;
+
+font-family: 'Smooch Sans', sans-serif;
+
+}
+
+.statsdata {
+  text-align: center;
+  padding: 0% 10% 0% 10%;
+ width: 80%;
+font-weight: 800;
+margin-top: -10%;
+
+font-family: 'Smooch Sans', sans-serif;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.statsdata:nth-child(3) {
+
+border: none;
+}
+#statscontent{
+  font-size: x-large;
+  color: rgb(0, 0, 0);
+}
+.subscribe{
+  padding: 1% 2% 2% 2%;
+  text-align: center;
+}
+.subscribetext{
+  text-align: center;
+  font-family: 'Smooch Sans', sans-serif;
+  margin-top: 1%;
+  background-color: white;
+  width: max-content;
+  margin-left: 43%;
+ padding:  3% 10% 3% 10%;
+  height: max-content;
+  border-radius: 5px;
+}
+.subscribebackground {
+  padding: 5%;
+  background-image: url('https://media.istockphoto.com/photos/top-view-of-black-christmas-boxes-with-red-ribbon-on-black-background-picture-id1171256532?k=20&m=1171256532&s=612x612&w=0&h=pYgTrx3O-Y0yRHGZ2JWGr73eF5U-aJLnsedpyk38plE=');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 10%;
+}
+.subscribetextt{
+  font-size: large;
+  color: red;
+  font-weight: 700;
+}
+
+.subscribebutton{
+  background-color: red;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  font-weight: 900;
+  padding: 0.7% 2% 0.5% 2%;
+}
+.emailinputsubscribe{
+ width: 50%;
+ border: 1px red solid;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ font-weight: 500;
+}
+.menupage{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+.btn{
+  color: white;
+  height: 20px;
+  margin-top: 10px;
+}
+/* footer */
+.foot{
+  display: flex;
+  background-color: #941b1b;
+  width: auto;
+  text-align:center;
+  color:black;
+  padding-bottom: 30px;
+  margin-bottom: auto;
+}
+hr{
+  width:100%; height:1px; background: black;
+}
+
+.download-button{
+  padding-top: 20%;
+  margin-top:3%;
+  margin-left: 10%;
+  display: inline;
+}
+
+.foot-word1{
+  margin-top: 3%;
+  color: white;
+  text-shadow: 4px 3px 16px #000000;
+}
+.foot-word2{
+  margin-top:3%;
+  color: white;
+  text-shadow: 4px 3px 16px #000000;
+}
+.foot-icon{
+  margin-right: 5%;
+  margin-top: 3%;
+  text-shadow: 4px 3px 16px #000000;
+  color: white;
+}
+.foot-half1{
+  display: table-cell;
+vertical-align: top;
+width: 50%;
+height: 100%;
+
+}
+.foot-half2{
+  display: table-cell;
+vertical-align: top;
+width: 50%;
+height: 100%;
+}
+.payment{
+
+  background-color: #F7F7F7;
+  white-space: nowrap;
+}
+.payment *{
+  display: inline;
+}
+.securepayment{
+ margin-left: 5%;
+}
+.Copyright{
+  margin-left: 17%;
+
+}
+.paymentmethod{
+  margin: 8% 0 8% 8%;
+}
+.paymentphoto{
+  width: 20%;
+  height: 20%;
+   margin: 2% 0 2% 0%;
+}
+
+.Appledownload{
+  margin-left: 3%;
+  margin-top: 2%;
+  background-color: white;
+  padding: 2% 4% 2% 4%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+ 
+}
+.Appledownload:hover{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 1s;
+  transform: scale(1.1); 
+  
+}
+.googledownload {
+  color: white;
+  margin-left: 3%;
+  margin-top: 2%;
+  background-color: rgb(0, 0, 0);
+  padding: 2% 4% 2% 4%;
+  box-shadow: rgba(3, 3, 3, 0.35) 0px 5px 15px;
+ 
+}
+.googledownload:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ transition: 1s;
+ transform: scale(1.1);  
+}
