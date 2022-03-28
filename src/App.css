@@ -8,14 +8,12 @@
 .navbar {
  
   width: 101%;
-padding-top: -10px;
+
 margin: -1.5% 0% 0% -1%;
   display: flex;
   background-color: rgb(180, 78, 78);
-  position: fixed;
-  top: 0%;
-  
-  overflow: hidden;
+ 
+ 
   z-index: 1;
   height: 15%;
   
@@ -33,7 +31,7 @@ margin: -1.5% 0% 0% -1%;
 }
   .icons {
     padding: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     
   }
 .menu{
@@ -45,6 +43,7 @@ margin: -1.5% 0% 0% -1%;
 .menudropdown {
   position: relative;
   display: none;
+  
 }
 menu:hover .menudropdown {
   position: relative;
@@ -137,6 +136,7 @@ menu:hover .menudropdown {
 }
 html {
   background-color: rgb(239, 247, 255);
+  scroll-behavior: smooth;
 }
 
 
@@ -425,4 +425,150 @@ height: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  transition: 1s;
  transform: scale(1.1);  
+}
+
+.menuback{
+  
+  color: aliceblue;
+  font-size: x-large;
+  padding-top: 10%px;
+  
+}
+
+.menuHeading{
+color: white;
+padding-right: 90%;
+padding-top: 2%;
+font-size: x-large;
+transition: all 2s ease-in;
+}
+
+.menuCategoriesdiv{
+ display: inline-flex;
+ width: 25%;
+  
+ align-items: center;
+ justify-content: center;
+  padding: 2%;
+}
+
+.bdaycategories{
+  padding: 1%;
+  
+ 
+ width: 200px
+  
+}
+.menuCategories{
+  
+  margin-top: 5%;
+  margin: 5%;
+  width: 100%;
+ 
+  
+  
+}
+.bdaycategories:hover .dropcontent{
+ display: block;
+ animation: growDown 300ms ease-in-out forwards;
+ transform-origin: top center;
+ margin-top: 10%;
+}
+
+@keyframes growDown {
+0% {
+    transform: scaleY(0)
+}
+80% {
+    transform: scaleY(1.1)
+}
+100% {
+    transform: scaleY(1)
+}
+}
+ 
+
+.dropcontent{
+  display: none;
+ 
+  padding: 5%;
+}
+
+.Signupdiv {
+  padding-top: 5%;
+  height: fit-content;
+  background-color: #941b1b;
+  padding-bottom: 5%;
+  background-image: url(https://img.freepik.com/free-photo/guy-with-christmas-gift-pink-background_185193-74348.jpg?t=st=1648439654~exp=1648440254~hmac=f3ec397627243393173e30ef54239e3cc72958bb6dd67e70694fb3442a13c5ef&w=900);
+background-size: cover;
+background-repeat: no-repeat;
+}
+  
+ 
+ 
+ 
+
+.text {
+  
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 5px;
+  border: none;
+}
+.underline {
+  background-color:rgb(172, 72, 72);
+}
+.signuptext{
+  border-radius: 5px;
+  border: none;
+
+  
+}
+
+.signupdate{
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.signupassword{
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.signupemail{
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.signubutton{
+  width: 100%;
+  border: none;
+  background-color: rgb(37, 160, 12);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 0.2%;
+}
+.signUpbox{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 4%;
+  background-color: rgb(172, 72, 72);
+}
+.signuuheading{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+}
+.menudiv{
+  
+ width: 100%;
+ 
+}
+.menudivparent{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
